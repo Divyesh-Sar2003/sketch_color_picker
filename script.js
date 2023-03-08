@@ -70,14 +70,5 @@ document.addEventListener("DOMContentLoaded", function()
         });
 
     });
-    newGridButton.addEventListener("click", function() {
-        var gridItems =documetn.querySelectorAll(".grid");
-        gridItems.forEach(function(item){
-            item.addEventListener("mouseover", function()
-            {this.style.backgroundColor="white";
-            });
-        });
-        
-    });
      
 });
