@@ -70,5 +70,13 @@ document.addEventListener("DOMContentLoaded", function()
         });
 
     });
-     
+    var eraseButton = this.document.getElementById("erase");
+    eraseButton.addEventListener()
+    function erase()
+    {
+        container.addEventListener("mouseover",e => {
+        // this.style.backgroundColor = white;
+        e.target.style.backgroundColor = null;
+        });
+    }
 });
